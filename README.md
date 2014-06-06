@@ -1,13 +1,13 @@
 kgraft-examples
 ---------------
 
-A set of example kgraft patches.
+A way to build the kgraft samples easily and additional scripts.
 
 Install anything you need to build a kernel module.
-Then type 'make'.
+Then type `make`.
 
 Insert the module:
-sudo insmod kgraft-example.ko
+`sudo insmod kgraft_patcher.ko`
 
 Check dmesg, and you'll need to wait for everything to converge.
 

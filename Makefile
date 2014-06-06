@@ -1,4 +1,4 @@
-obj-m += kgraft_example.o kgraft_example2.o
+obj-m += kgraft_patcher.o 
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
